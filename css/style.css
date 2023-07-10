@@ -173,26 +173,26 @@ li:hover > a {
     margin-right: auto;
 }
 
-/* optional part syles here */
-.optional {
+/* services part syles here */
+.services {
     background-color: #f4f4f4;
     display: flex;
     justify-content: space-evenly;
     border-radius: 5px;
 }
 
-.optional-items {
+.services-items {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 50px 0 35px;
 }
 
-.optional-items img {
+.services-items img {
     width: 65px;
 }
 
-.optional-items h4 {
+.services-items h4 {
     font-weight: 600;
 }
 
