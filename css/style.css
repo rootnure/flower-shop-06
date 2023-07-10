@@ -34,8 +34,8 @@ p {
 }
 
 .w-80 {
-    width: 80vw;
-    margin: 0 10vw;
+    width: 80%;
+    margin: 0 10%;
 }
 
 .w-50 {
@@ -53,8 +53,8 @@ p {
 }
 
 .px-80 {
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .fs-30px {
@@ -67,7 +67,7 @@ p {
 
 /* banner styles here */
 .header {
-    height: 85vh;
+    height: 625px;
     background-color: #fceef1;
     display: flex;
     justify-content: space-between;
@@ -84,8 +84,8 @@ p {
 }
 
 .header-img {
-    margin-top: 10vh;
-    height: 75vh;
+    margin-top: 75px;
+    height: 550px;
     bottom: 0;
 }
 
@@ -132,7 +132,7 @@ p {
 .hot-deal {
     display: flex;
     justify-content: space-around;
-    height: 50vh;
+    height: 385px;
     background-color: #fdf6f8;
 }
 
@@ -146,10 +146,11 @@ p {
 .hot-deal-flower-container {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .hot-deal-flower {
-    height: 100%;
+    height: 80%;
 }
 
 /* instagram styles here */
@@ -222,7 +223,7 @@ p {
 }
 
 .footer div {
-    width: 30vw;
+    width: 30%;
     margin: 0 auto;
     text-align: center;
 }
