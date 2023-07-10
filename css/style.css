@@ -8,12 +8,47 @@
     font-family: 'Poppins', sans-serif;
 }
 
+p {
+    font-size: 14px;
+}
+
+.text-primary {
+    color: #e15274;
+}
+
+.text-secondary {
+    color: #a29a9c;
+}
+
+.text-white {
+    color: #fff;
+}
+
 .btn-primary {
     padding: 10px 15px;
     color: #fff;
     background-color: #e15274;
     border: 0;
     border-radius: 5px;
+}
+
+.w-80 {
+    width: 80vw;
+    margin: 0 10vw;
+}
+
+.mx-1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mx-2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.fs-30px {
+    font-size: 30px;
 }
 
 /* banner styles here */
@@ -23,7 +58,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 12%;
+    padding: 0 10vw;
 }
 
 .header-info {
@@ -39,4 +74,55 @@
     margin-top: 10vh;
     height: 75vh;
     bottom: 0;
+}
+
+/* featured flowers styles here */
+.featured {
+    margin-top: 50px;
+}
+
+.featured-header {
+    text-align: center;
+}
+
+
+.featured-description {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.featured-flowers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flower {
+    margin: 10px;
+    padding: 15px 15px 0;
+}
+
+.flower-img-container {
+    height: 250px;
+}
+
+.flower-img {
+    height: 100%;
+    padding-top: 35px;
+    background-color: yellow;
+    border-radius: 150px 150px 0 0;
+}
+
+/* footer styles here */
+.footer {
+    background-color: black;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.footer div {
+    width: 30vw;
+    margin: 0 auto;
+    text-align: center;
 }
