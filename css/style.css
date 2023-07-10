@@ -37,18 +37,31 @@ p {
     margin: 0 10vw;
 }
 
+.w-50 {
+    width: 50%;
+}
+
 .mx-1 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .mx-2 {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.px-80 {
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 .fs-30px {
     font-size: 30px;
+}
+
+.text-align-center {
+    text-align: center;
 }
 
 /* banner styles here */
@@ -58,7 +71,6 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10vw;
 }
 
 .header-info {
@@ -113,6 +125,30 @@ p {
 
 .optional-items h4 {
     font-weight: 600;
+}
+
+/* hot deal styles here */
+.hot-deal {
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+    background-color: #fdf6f8;
+}
+
+.hot-deal-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hot-deal-flower-container {
+    display: flex;
+    justify-content: center;
+}
+
+.hot-deal-flower {
+    height: 100%;
 }
 
 /* footer styles here */
