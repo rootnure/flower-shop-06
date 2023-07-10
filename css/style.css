@@ -92,25 +92,27 @@ p {
     margin-right: auto;
 }
 
-.featured-flowers {
+/* optional part syles here */
+.optional {
+    background-color: #f4f4f4;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    border-radius: 5px;
 }
 
-.flower {
-    margin: 10px;
-    padding: 15px 15px 0;
+.optional-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 35px;
 }
 
-.flower-img-container {
-    height: 250px;
+.optional-items img {
+    width: 65px;
 }
 
-.flower-img {
-    height: 100%;
-    padding-top: 35px;
-    background-color: yellow;
-    border-radius: 150px 150px 0 0;
+.optional-items h4 {
+    font-weight: 600;
 }
 
 /* footer styles here */
