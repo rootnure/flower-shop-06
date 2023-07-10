@@ -66,7 +66,7 @@ p {
 }
 
 /* banner styles here */
-.header {
+.banner {
     height: 625px;
     background-color: #fceef1;
     display: flex;
@@ -74,16 +74,16 @@ p {
     align-items: center;
 }
 
-.header-info {
+.banner-info {
     width: 50%;
 }
 
-.header-title {
+.banner-title {
     font-size: 45px;
     font-weight: 700;
 }
 
-.header-img {
+.banner-img {
     margin-top: 75px;
     height: 550px;
     bottom: 0;
