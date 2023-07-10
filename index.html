@@ -130,23 +130,27 @@
 
         <section class="review px-80 mx-2" id="review">
             <h2 class="text-align-center">Write a review</h2>
-            <form action="" class="w-80">
+            <form class="w-80">
                 <table>
                     <tr>
                         <td class="input-instruction">Full Name: </td>
-                        <td><input type="text" placeholder="Mr. X"></td>
+                        <td><input type="text" placeholder="Mr. X" required></td>
                     </tr>
                     <tr>
                         <td class="input-instruction">Email: </td>
-                        <td><input type="email" placeholder="example@mail.com"></td>
+                        <td><input type="email" placeholder="example@mail.com" required></td>
                     </tr>
                     <tr>
                         <td class="input-instruction">Feedback: </td>
-                        <td><textarea cols="120" rows="10" placeholder="Write your review or feedback here"></textarea></td>
+                        <td><textarea cols="120" rows="10" placeholder="Write your review or feedback here" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: end;">
+                            <input class="btn-primary" style="margin-right: 10px;" type="reset" value="Reset">
+                            <input class="btn-primary" type="submit" value="Submit">
+                        </td>
                     </tr>
                 </table>
-                <input class="btn-primary" type="submit" value="Submit">
-                <input class="btn-primary" type="reset" value="Reset">
             </form>
         </section>
     </main>
