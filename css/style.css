@@ -12,6 +12,10 @@ p {
     font-size: 14px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .text-primary {
     color: #e15274;
 }
@@ -22,6 +26,18 @@ p {
 
 .text-white {
     color: #fff;
+}
+
+.text-black {
+    color: #000;
+}
+
+.bg-primary {
+    background-color: #e15274;
+}
+
+.bg-secondary {
+    background-color: #a29a9c;
 }
 
 .btn-primary {
@@ -63,6 +79,58 @@ p {
 
 .text-align-center {
     text-align: center;
+}
+
+/* navbar styles here */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+li:hover > a {
+    background-color: #a29a9c;
+}
+
+.brand {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.links ul {
+    display: flex;
+}
+
+.links li {
+    list-style: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+.btn-sign-in {
+    background-color: whitesmoke;
+    border: 0;
+    border: 1px solid whitesmoke;
+    margin-right: 5px;
+}
+
+.btn-sign-up {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-sign-in, .btn-sign-up {
+    padding: 5px 10px;
+    border-radius: 20px;
 }
 
 /* banner styles here */
