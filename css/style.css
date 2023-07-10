@@ -166,11 +166,58 @@ li:hover > a {
     text-align: center;
 }
 
-
 .featured-description {
     width: 30%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.flowers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flower {
+    width: 32%;
+}
+
+.flower-container {
+    /* border: 1px solid pink; */
+    border-radius: 50% 50% 0 0;
+    height: 350px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fc-1 {
+    background-color: #f0dde7;
+}
+
+.fc-2 {
+    background-color: #daeff0;
+}
+
+.fc-3 {
+    background-color: #e3ebdc;
+}
+
+.fc-1, .fc-3 {
+    align-items: flex-end;
+}
+
+.fc-2 img {
+    margin-top: 35px;
+}
+
+.flower-container img {
+    height: 85%;
+}
+
+.flower-title {
+    display: block;
+    text-decoration: underline;
 }
 
 /* services part syles here */
