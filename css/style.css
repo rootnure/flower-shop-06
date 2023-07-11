@@ -5,10 +5,6 @@
     font-family: 'Lato', sans-serif;
 }
 
-p {
-    font-size: 14px;
-}
-
 button:hover {
     cursor: pointer;
 }
@@ -56,8 +52,8 @@ button:hover {
 }
 
 .mx-1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .mx-2 {
@@ -65,13 +61,18 @@ button:hover {
     margin-bottom: 75px;
 }
 
+.px-1 {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
 .px-80 {
     padding-left: 10%;
     padding-right: 10%;
 }
 
-.fs-30px {
-    font-size: 30px;
+.fs-45px {
+    font-size: 45px;
 }
 
 .text-align-center {
@@ -92,7 +93,7 @@ nav a {
     border-radius: 15px;
 }
 
-li:hover > a {
+li:hover>a {
     background-color: #a29a9c;
 }
 
@@ -125,7 +126,8 @@ li:hover > a {
     border: 1px solid #fff;
 }
 
-.btn-sign-in, .btn-sign-up {
+.btn-sign-in,
+.btn-sign-up {
     padding: 5px 10px;
     border-radius: 20px;
 }
@@ -199,7 +201,8 @@ li:hover > a {
     background-color: #e3ebdc;
 }
 
-.fc-1, .fc-3 {
+.fc-1,
+.fc-3 {
     align-items: flex-end;
 }
 
@@ -310,18 +313,22 @@ li:hover > a {
 }
 
 /* review section style here */
-.review{
+.review {
     background-color: #fceef1;
     padding: 75px 0;
 }
 
-.review input[type=text], .review input[type=email] {
+.review input[type=text],
+.review input[type=email] {
     width: 98.55%;
 }
 
-.review input[type=text], .review input[type=email], .review textarea {
+.review input[type=text],
+.review input[type=email],
+.review textarea {
     background-color: transparent;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 5px;
     border: 1px solid rgb(163, 162, 162);
 }
@@ -350,7 +357,7 @@ form {
     text-align: center;
 }
 
-.footer small > span {
+.footer small>span {
     padding-left: 15px;
     padding-right: 15px;
 }
